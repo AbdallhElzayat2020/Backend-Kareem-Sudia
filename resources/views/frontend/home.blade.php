@@ -5,12 +5,16 @@
 
     <!--====== Start Banner Section ======-->
     <section class="hero-banner-v2 position-relative z-1" id="home">
-        <div class="shape shape-one"><span><img src="assets/images/hero/hero-two-shape-1.png" alt=""></span>
+        <div class="shape shape-one"><span><img src="{{ asset('assets/frontend/assets/images/hero/hero-two-shape-1.png') }}"
+                    alt=""></span>
         </div>
-        <div class="shape shape-two"><span><img src="assets/images/hero/hero-two-shape-2.png" alt=""></span>
+        <div class="shape shape-two"><span><img src="{{ asset('assets/frontend/assets/images/hero/hero-two-shape-2.png') }}"
+                    alt=""></span>
         </div>
-        <div class="shape shape-three"><span><img src="assets/images/hero/hero-two-shape-3.png" alt=""></span></div>
-        <div class="shape shape-four"><span><img src="assets/images/hero/dot-pattern.png" alt=""></span>
+        <div class="shape shape-three"><span><img src="{{ asset('assets/frontend/assets/images/hero/hero-two-shape-3.png') }}"
+                    alt=""></span></div>
+        <div class="shape shape-four"><span><img src="{{ asset('assets/frontend/assets/images/hero/dot-pattern.png') }}"
+                    alt=""></span>
         </div>
         <div class="container">
             <div class="row align-items-center">
@@ -28,11 +32,13 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="hero-img wow fadeInRight" data-wow-delay=".9s">
-                        <img src="assets/images/hero/hero-three-img-1-1.png" alt="">
+                        <img src="{{ asset('assets/frontend/assets/images/hero/hero-three-img-1-1.png') }}" alt="LOGO">
                         <div class="hero-shape hero-shape-one animate-float-x"><span><img
-                                    src="assets/images/hero/shape-1.png" alt=""></span></div>
+                                    src="{{ asset('assets/frontend/assets/images/hero/shape-1.png') }}"
+                                    alt="LOGO"></span></div>
                         <div class="hero-shape hero-shape-two animate-float-y"><span><img
-                                    src="assets/images/hero/shape-2.png" alt=""></span></div>
+                                    src="{{ asset('assets/frontend/assets/images/hero/shape-2.png') }}"
+                                    alt="LOGO"></span></div>
                     </div>
                 </div>
             </div>
@@ -59,7 +65,7 @@
                                 <i class="flaticon-strategy"></i>
                             </div>
                             <div class="text">
-                                <h3 class="title"><a href="service-details.html">Strategy</a></h3>
+                                <h3 class="title"><a href="javascript:void(0)">Strategy</a></h3>
                                 <ul class="list-style-two">
                                     <li>Product Management</li>
                                     <li>MVP Definition</li>
@@ -74,7 +80,7 @@
                                 <i class="flaticon-design"></i>
                             </div>
                             <div class="text">
-                                <h3 class="title"><a href="service-details.html">Product Design</a></h3>
+                                <h3 class="title"><a href="javascript:void(0)">Product Design</a></h3>
                                 <ul class="list-style-two">
                                     <li>Product Management</li>
                                     <li>MVP Definition</li>
@@ -89,7 +95,7 @@
                                 <i class="flaticon-source-code"></i>
                             </div>
                             <div class="text">
-                                <h3 class="title"><a href="service-details.html">Development</a></h3>
+                                <h3 class="title"><a href="javascript:void(0)">Development</a></h3>
                                 <ul class="list-style-two">
                                     <li>Product Management</li>
                                     <li>MVP Definition</li>
@@ -112,7 +118,7 @@
                     <div class="img-holder mb-50 wow fadeInLeft">
                         <div class="shape shape-one animate-float-y"><span><img src="assets/images/shape/shape-5.png"
                                     alt=""></span></div>
-                        <img src="assets/images/about/about-3.jpg" alt="">
+                        <img src="{{ asset('assets/frontend/assets/images/about/about-3.jpg') }}" alt="">
                     </div>
                 </div>
                 <div class="col-lg-7">
@@ -164,7 +170,7 @@
                                 </div>
                                 <div class="info">
                                     <h5 class="blue-dark">Phone Us</h5>
-                                    <h4><a href="tel:+012(345)6789">+012 (345) 6789</a></h4>
+                                    <h4><a href="tel:+012(345)6789">000000000</a></h4>
                                 </div>
                             </div>
                         </div>
@@ -285,9 +291,9 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="play-content bg_cover text-center wow fadeInUp"
-                        style="background-image: url(assets/images/video/img-1.jpg);">
-                        <a href="https://www.youtube.com/watch?v=AT6oSIDbGkw" class="video-popup"><i
-                                class="fas fa-play"></i></a>
+                        style="background-image: url({{ asset('assets/frontend/assets/images/video/img-1.jpg') }});">
+                        <a href="https://www.youtube.com/watch?v=AT6oSIDbGkw" class="video-popup">
+                            <i class="fas fa-play"></i></a>
                     </div>
                 </div>
             </div>
@@ -309,52 +315,62 @@
             <div class="partners-wrapper wow fadeInUp">
                 <div class="partner-item">
                     <div class="img-holder">
-                        <a href="#"><img src="assets/images/partners/img-1.png" alt=""></a>
+                        <a href="#"><img src="{{ asset('assets/frontend/assets/images/partners/img-1.png') }}"
+                                alt="LOGO"></a>
                     </div>
                 </div>
                 <div class="partner-item">
                     <div class="img-holder">
-                        <a href="#"><img src="assets/images/partners/img-2.png" alt=""></a>
+                        <a href="#"><img src="{{ asset('assets/frontend/assets/images/partners/img-2.png') }}"
+                                alt="LOGO"></a>
                     </div>
                 </div>
                 <div class="partner-item">
                     <div class="img-holder">
-                        <a href="#"><img src="assets/images/partners/img-3.png" alt=""></a>
+                        <a href="#"><img src="{{ asset('assets/frontend/assets/images/partners/img-3.png') }}"
+                                alt="LOGO"></a>
                     </div>
                 </div>
                 <div class="partner-item">
                     <div class="img-holder">
-                        <a href="#"><img src="assets/images/partners/img-4.png" alt=""></a>
+                        <a href="#"><img src="{{ asset('assets/frontend/assets/images/partners/img-4.png') }}"
+                                alt="LOGO"></a>
                     </div>
                 </div>
                 <div class="partner-item">
                     <div class="img-holder">
-                        <a href="#"><img src="assets/images/partners/img-5.png" alt=""></a>
+                        <a href="#"><img src="{{ asset('assets/frontend/assets/images/partners/img-5.png') }}"
+                                alt="LOGO"></a>
                     </div>
                 </div>
                 <div class="partner-item">
                     <div class="img-holder">
-                        <a href="#"><img src="assets/images/partners/img-6.png" alt=""></a>
+                        <a href="#"><img src="{{ asset('assets/frontend/assets/images/partners/img-6.png') }}"
+                                alt="LOGO"></a>
                     </div>
                 </div>
                 <div class="partner-item">
                     <div class="img-holder">
-                        <a href="#"><img src="assets/images/partners/img-7.png" alt=""></a>
+                        <a href="#"><img src="{{ asset('assets/frontend/assets/images/partners/img-7.png') }}"
+                                alt="LOGO"></a>
                     </div>
                 </div>
                 <div class="partner-item">
                     <div class="img-holder">
-                        <a href="#"><img src="assets/images/partners/img-8.png" alt=""></a>
+                        <a href="#"><img src="{{ asset('assets/frontend/assets/images/partners/img-8.png') }}"
+                                alt="LOGO"></a>
                     </div>
                 </div>
                 <div class="partner-item">
                     <div class="img-holder">
-                        <a href="#"><img src="assets/images/partners/img-9.png" alt=""></a>
+                        <a href="#"><img src="{{ asset('assets/frontend/assets/images/partners/img-9.png') }}"
+                                alt="LOGO"></a>
                     </div>
                 </div>
                 <div class="partner-item">
                     <div class="img-holder">
-                        <a href="#"><img src="assets/images/partners/img-10.png" alt=""></a>
+                        <a href="#"><img src="{{ asset('assets/frontend/assets/images/partners/img-10.png') }}"
+                                alt="LOGO"></a>
                     </div>
                 </div>
             </div>
@@ -368,7 +384,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-5">
                     <div class="img-holder mb-55 wow fadeInLeft">
-                        <img src="assets/images/testimonial/img-2.jpg" alt="">
+                        <img src="{{ asset('assets/frontend/assets/images/testimonial/img-2.jpg') }}" alt="">
                     </div>
                 </div>
                 <div class="col-lg-7">
@@ -516,10 +532,8 @@
                                     <li class="check">Web Design</li>
                                     <li class="check">Web Development</li>
                                     <li class="check">SEO Optimizations</li>
-                                    <li class="uncheck">Online Support</li>
-                                    <li class="uncheck">Domain & Hosting</li>
                                 </ul>
-                                <a href="contact.html" class="main-btn arrow-btn">Choose Plan</a>
+                                <a href="#contact" class="main-btn arrow-btn">Choose Plan</a>
                             </div>
                         </div>
                     </div>
@@ -539,7 +553,7 @@
                                     <li class="check">Online Support</li>
                                     <li class="check">Domain & Hosting</li>
                                 </ul>
-                                <a href="contact.html" class="main-btn arrow-btn">Choose Plan</a>
+                                <a href="#contact" class="main-btn arrow-btn">Choose Plan</a>
                             </div>
                         </div>
                     </div>
@@ -555,10 +569,8 @@
                                     <li class="check">Web Design</li>
                                     <li class="check">Web Development</li>
                                     <li class="check">SEO Optimizations</li>
-                                    <li class="check">Online Support</li>
-                                    <li class="check">Domain & Hosting</li>
                                 </ul>
-                                <a href="contact.html" class="main-btn arrow-btn">Choose Plan</a>
+                                <a href="#contact" class="main-btn arrow-btn">Choose Plan</a>
                             </div>
                         </div>
                     </div>
@@ -583,7 +595,7 @@
                     </div>
                     <div class="col-lg-5">
                         <div class="button-box float-lg-right">
-                            <a href="contact.html" class="main-btn bordered-btn btn-white arrow-btn">Let’s Work
+                            <a href="#contact" class="main-btn bordered-btn btn-white arrow-btn">Let’s Work
                                 Together</a>
                         </div>
                     </div>
