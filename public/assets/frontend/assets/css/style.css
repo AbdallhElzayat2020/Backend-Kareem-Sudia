@@ -1,5 +1,5 @@
 /*---==========================
-   01. Start Common  css 
+   01. Start Common  css
 =========================---*/
 /* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
@@ -914,12 +914,12 @@ button {
 }
 
 /*---==========================
-   End Common css 
+   End Common css
 =========================---*/
 
 
 /*---==========================
-   02. Start Header css 
+   02. Start Header css
 =========================---*/
 .transparent-header {
     position: absolute;
@@ -1505,12 +1505,12 @@ button {
 }
 
 /*---==========================
-   End Header css 
+   End Header css
 =========================---*/
 
 
 /*---==========================
-   03. Start Hero Section css 
+   03. Start Hero Section css
 =========================---*/
 .hero-banner-v1 {
     z-index: 1;
@@ -1886,11 +1886,11 @@ button {
 }
 
 /*---==========================
-   End Hero Section css 
+   End Hero Section css
 =========================---*/
 
 /*---==========================
-   04. Start About Section css 
+   04. Start About Section css
 ============================---*/
 
 .about-area-v1 .img-holder-box {
@@ -2056,11 +2056,11 @@ button {
 }
 
 /*---==========================
-   End About Section css 
+   End About Section css
 =========================---*/
 
 /*---==============================
-   05. Start Service Section css 
+   05. Start Service Section css
 ==============================---*/
 
 .service-item {
@@ -2180,11 +2180,11 @@ button {
 }
 
 /*---==========================
-   End Service Section css 
+   End Service Section css
 =========================---*/
 
 /*---===============================
-   06. Start Portfolio Section css 
+   06. Start Portfolio Section css
 ================================---*/
 
 .slick-dots li button {
@@ -2537,12 +2537,12 @@ button {
 }
 
 /*---==========================
-   End Portfolio Section css 
+   End Portfolio Section css
 =========================---*/
 
 
 /*---==============================
-   07. Start Counter Section css 
+   07. Start Counter Section css
 ================================---*/
 .counter-area-v2 .counter-item,
 .counter-area-v1 .counter-item {
@@ -2672,13 +2672,13 @@ button {
 }
 
 /*---==========================
-   End Counter Section css 
+   End Counter Section css
 =========================---*/
 
 
 
 /*---=============================
-    08. Start Testimonial css 
+    08. Start Testimonial css
 ==============================---*/
 .pattern-bg {
     position: relative;
@@ -2999,12 +2999,12 @@ button {
 }
 
 /*---==========================
-    End Testimonial css 
+    End Testimonial css
 =========================---*/
 
 
 /*---==========================
-    09. Start CTA Section css 
+    09. Start CTA Section css
 =========================---*/
 .cta-area-v1 .cta-wrapper {
     position: relative;
@@ -3077,11 +3077,11 @@ button {
 }
 
 /*---==========================
-    End CTA Section css 
+    End CTA Section css
 =========================---*/
 
 /*---================================
-    10. Start Pricing Section css 
+    10. Start Pricing Section css
 ===============================---*/
 .pricing-list li {
     display: -webkit-inline-box;
@@ -3342,12 +3342,12 @@ button {
 }
 
 /*---==========================
-    End Pricing Section css 
+    End Pricing Section css
 =========================---*/
 
 
 /*---=====================
-    11. Start Team  css 
+    11. Start Team  css
 ====================---*/
 .team-area-v1 .team-item:hover .img-holder .team-hover {
     visibility: visible;
@@ -3709,11 +3709,11 @@ button {
 }
 
 /*---==================
-    End Team  css 
+    End Team  css
 ====================---*/
 
 /*---=====================
-    12. Start Skill  css 
+    12. Start Skill  css
 ======================---*/
 .single-skill {
     margin-bottom: 30px;
@@ -3812,11 +3812,11 @@ button {
 }
 
 /*---==================
-    End Skill  css 
+    End Skill  css
 ====================---*/
 
 /*---========================
-    13. Start Elements  css 
+    13. Start Elements  css
 ==========================---*/
 
 /* Video CSS */
@@ -4162,12 +4162,12 @@ button {
 }
 
 /*---==================
-    End Elements  css 
+    End Elements  css
 ====================---*/
 
 
 /*---============================
-    14. Start Blog Section css 
+    14. Start Blog Section css
 =============================---*/
 .z-1 {
     z-index: 1;
@@ -4967,11 +4967,11 @@ button {
 }
 
 /*---==========================
-    End Blog Section css 
+    End Blog Section css
 =========================---*/
 
 /*---==========================
-    15. Start Contact css 
+    15. Start Contact css
 =========================---*/
 
 /* Information Item */
@@ -5268,11 +5268,11 @@ button {
 }
 
 /*---==========================
-    End Contact Section css 
+    End Contact Section css
 =========================---*/
 
 /*---==========================
-    16. Start Footer css 
+    16. Start Footer css
 =========================---*/
 .blue-dark {
     color: var(--blue-dark);
@@ -5496,7 +5496,7 @@ button {
 }
 
 /*---==========================
-    End Footer css 
+    End Footer css
 =========================---*/
 
 
