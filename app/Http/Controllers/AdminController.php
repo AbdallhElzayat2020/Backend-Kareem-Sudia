@@ -28,7 +28,7 @@ class AdminController extends Controller
         ]);
 
         if (Auth::guard('admin')->attempt($credentials)) {
-            return redirect()->intended('/admin/dashboard/home');
+            return redirect()->intended('/admin/dashboard/home')->with('welcome Back Mr Kareem');
         }
 
         return back()->withErrors(['email' => 'Invalid credentials']);

@@ -36,6 +36,12 @@
                             </li>
                             <li class="menu-item"><a href="#contact" class="page-scroll nav-link">Contact</a>
                             </li>
+                            <li class="menu-item">
+                                <a href="{{ route('login') }}" class="page-scroll nav-link">Login</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="{{ route('register') }}" class="page-scroll nav-link">Register</a>
+                            </li>
                         </ul>
                     </nav>
                 </div>
