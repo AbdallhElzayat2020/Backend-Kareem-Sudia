@@ -5,16 +5,24 @@
 
     <!--====== Start Banner Section ======-->
     <section class="hero-banner-v2 position-relative z-1" id="home">
-        <div class="shape shape-one"><span><img src="{{ asset('assets/frontend/assets/images/hero/hero-two-shape-1.png') }}"
-                    alt=""></span>
+        <div class="shape shape-one">
+            <span>
+                <img src="{{ asset('assets/frontend/assets/images/hero/hero-two-shape-1.png') }}" alt="">
+            </span>
         </div>
-        <div class="shape shape-two"><span><img src="{{ asset('assets/frontend/assets/images/hero/hero-two-shape-2.png') }}"
-                    alt=""></span>
+        <div class="shape shape-two">
+            <span>
+                <img src="{{ asset('assets/frontend/assets/images/hero/hero-two-shape-2.png') }}" alt="">
+            </span>
         </div>
-        <div class="shape shape-three"><span><img src="{{ asset('assets/frontend/assets/images/hero/hero-two-shape-3.png') }}"
-                    alt=""></span></div>
-        <div class="shape shape-four"><span><img src="{{ asset('assets/frontend/assets/images/hero/dot-pattern.png') }}"
-                    alt=""></span>
+        <div class="shape shape-three">
+            <span>
+                <img src="{{ asset('assets/frontend/assets/images/hero/hero-two-shape-3.png') }}" alt="">
+            </span></div>
+        <div class="shape shape-four">
+            <span>
+                <img src="{{ asset('assets/frontend/assets/images/hero/dot-pattern.png') }}" alt="">
+            </span>
         </div>
         <div class="container">
             <div class="row align-items-center">
@@ -33,12 +41,16 @@
                 <div class="col-lg-6">
                     <div class="hero-img wow fadeInRight" data-wow-delay=".9s">
                         <img src="{{ asset('assets/frontend/assets/images/hero/hero-three-img-1-1.png') }}" alt="LOGO">
-                        <div class="hero-shape hero-shape-one animate-float-x"><span><img
-                                    src="{{ asset('assets/frontend/assets/images/hero/shape-1.png') }}"
-                                    alt="LOGO"></span></div>
-                        <div class="hero-shape hero-shape-two animate-float-y"><span><img
-                                    src="{{ asset('assets/frontend/assets/images/hero/shape-2.png') }}"
-                                    alt="LOGO"></span></div>
+                        <div class="hero-shape hero-shape-one animate-float-x">
+                            <span>
+                                <img src="{{ asset('assets/frontend/assets/images/hero/shape-1.png') }}" alt="LOGO">
+                            </span>
+                        </div>
+                        <div class="hero-shape hero-shape-two animate-float-y">
+                            <span>
+                                <img src="{{ asset('assets/frontend/assets/images/hero/shape-2.png') }}" alt="LOGO">
+                            </span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -116,8 +128,10 @@
             <div class="row">
                 <div class="col-lg-5">
                     <div class="img-holder mb-50 wow fadeInLeft">
-                        <div class="shape shape-one animate-float-y"><span><img src="assets/images/shape/shape-5.png"
-                                    alt=""></span></div>
+                        <div class="shape shape-one animate-float-y"><span>
+                                <img src="{{asset('assets/frontend/assets/images/shape/shape-5.png')}}" alt="">
+                            </span>
+                        </div>
                         <img src="{{ asset('assets/frontend/assets/images/about/about-3.jpg') }}" alt="">
                     </div>
                 </div>
@@ -136,7 +150,7 @@
                             <li>Professional Problem Solutions</li>
                             <li>Web Design & Development</li>
                         </ul>
-                        <a href="about.html" class="main-btn bordered-btn btn-blue">Learn More Us</a>
+                        <a href="#about" class="main-btn bordered-btn btn-blue">Contact Us</a>
                     </div>
                 </div>
             </div>
@@ -170,7 +184,7 @@
                                 </div>
                                 <div class="info">
                                     <h5 class="blue-dark">Phone Us</h5>
-                                    <h4><a href="tel:+012(345)6789">000000000</a></h4>
+                                    <h4><a href="tel:+000000">000000000</a></h4>
                                 </div>
                             </div>
                         </div>
@@ -184,13 +198,13 @@
                                     <div class="col-lg-12">
                                         <div class="form_group">
                                             <input type="text" class="form_control" placeholder="Full Name"
-                                                name="name" required>
+                                                   name="name" required>
                                         </div>
                                     </div>
                                     <div class="col-lg-12">
                                         <div class="form_group">
                                             <input type="email" class="form_control" placeholder="Email Address"
-                                                name="email" required>
+                                                   name="email" required>
                                         </div>
                                     </div>
                                     <div class="col-lg-12">
@@ -205,7 +219,7 @@
                                     <div class="col-lg-12">
                                         <div class="form_group">
                                             <input type="text" class="form_control" placeholder="Phone Number"
-                                                name="phone" required>
+                                                   name="phone" required>
                                         </div>
                                     </div>
                                     <div class="col-lg-12">
@@ -291,7 +305,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="play-content bg_cover text-center wow fadeInUp"
-                        style="background-image: url({{ asset('assets/frontend/assets/images/video/img-1.jpg') }});">
+                         style="background-image: url({{ asset('assets/frontend/assets/images/video/img-1.jpg') }});">
                         <a href="https://www.youtube.com/watch?v=AT6oSIDbGkw" class="video-popup">
                             <i class="fas fa-play"></i></a>
                     </div>
@@ -316,61 +330,64 @@
                 <div class="partner-item">
                     <div class="img-holder">
                         <a href="#"><img src="{{ asset('assets/frontend/assets/images/partners/img-1.png') }}"
-                                alt="LOGO"></a>
+                                         alt="LOGO"></a>
                     </div>
                 </div>
                 <div class="partner-item">
                     <div class="img-holder">
                         <a href="#"><img src="{{ asset('assets/frontend/assets/images/partners/img-2.png') }}"
-                                alt="LOGO"></a>
+                                         alt="LOGO"></a>
                     </div>
                 </div>
                 <div class="partner-item">
                     <div class="img-holder">
-                        <a href="#"><img src="{{ asset('assets/frontend/assets/images/partners/img-3.png') }}"
-                                alt="LOGO"></a>
+                        <a href="#">
+                            <img src="{{ asset('assets/frontend/assets/images/partners/img-3.png') }}" alt="LOGO">
+                        </a>
                     </div>
                 </div>
                 <div class="partner-item">
                     <div class="img-holder">
-                        <a href="#"><img src="{{ asset('assets/frontend/assets/images/partners/img-4.png') }}"
-                                alt="LOGO"></a>
+                        <a href="#">
+                            <img src="{{ asset('assets/frontend/assets/images/partners/img-4.png') }}" alt="LOGO">
+                        </a>
                     </div>
                 </div>
                 <div class="partner-item">
                     <div class="img-holder">
-                        <a href="#"><img src="{{ asset('assets/frontend/assets/images/partners/img-5.png') }}"
-                                alt="LOGO"></a>
+                        <a href="#">
+                            <img src="{{ asset('assets/frontend/assets/images/partners/img-5.png') }}" alt="LOGO">
+                        </a>
                     </div>
                 </div>
                 <div class="partner-item">
                     <div class="img-holder">
                         <a href="#"><img src="{{ asset('assets/frontend/assets/images/partners/img-6.png') }}"
-                                alt="LOGO"></a>
+                                         alt="LOGO"></a>
                     </div>
                 </div>
                 <div class="partner-item">
                     <div class="img-holder">
                         <a href="#"><img src="{{ asset('assets/frontend/assets/images/partners/img-7.png') }}"
-                                alt="LOGO"></a>
+                                         alt="LOGO"></a>
                     </div>
                 </div>
                 <div class="partner-item">
                     <div class="img-holder">
                         <a href="#"><img src="{{ asset('assets/frontend/assets/images/partners/img-8.png') }}"
-                                alt="LOGO"></a>
+                                         alt="LOGO"></a>
                     </div>
                 </div>
                 <div class="partner-item">
                     <div class="img-holder">
                         <a href="#"><img src="{{ asset('assets/frontend/assets/images/partners/img-9.png') }}"
-                                alt="LOGO"></a>
+                                         alt="LOGO"></a>
                     </div>
                 </div>
                 <div class="partner-item">
                     <div class="img-holder">
                         <a href="#"><img src="{{ asset('assets/frontend/assets/images/partners/img-10.png') }}"
-                                alt="LOGO"></a>
+                                         alt="LOGO"></a>
                     </div>
                 </div>
             </div>
@@ -595,8 +612,9 @@
                     </div>
                     <div class="col-lg-5">
                         <div class="button-box float-lg-right">
-                            <a href="#contact" class="main-btn bordered-btn btn-white arrow-btn">Let’s Work
-                                Together</a>
+                            <a href="#contact" class="main-btn bordered-btn btn-white arrow-btn">
+                                Let’s Work Together
+                            </a>
                         </div>
                     </div>
                 </div>
