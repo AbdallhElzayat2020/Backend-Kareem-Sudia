@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Admin;
+use App\Models\User;
 use Auth;
 use Illuminate\Http\Request;
 use Illuminate\View\View;
@@ -12,7 +13,8 @@ class AdminController extends Controller
 
     public function index()
     {
-        return view('Dashboard.Home');
+        $users = User::count();
+        return view('Dashboard.SuperAdmin.Home', compact('users'));
     }
 
     public function showLoginForm(): View
@@ -23,8 +25,8 @@ class AdminController extends Controller
     public function login(Request $request)
     {
         $credentials = $request->validate([
-            'email' => ['required', 'email','max:255','exists:admins'],
-            'password' => ['required','min:6'],
+            'email' => ['required', 'email', 'max:255', 'exists:admins'],
+            'password' => ['required', 'min:6'],
         ]);
 
         if (Auth::guard('admin')->attempt($credentials)) {

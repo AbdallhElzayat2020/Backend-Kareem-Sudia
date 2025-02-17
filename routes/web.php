@@ -12,8 +12,8 @@ Route::get('/', [HomeController::class, 'index'])->name('home');
 
 
 Route::get('/dashboard', function () {
-    return view('Dashboard.Home');
-})->middleware(['auth'])->name('dashboard');
+    return view('Dashboard.User.Home');
+})->middleware(['auth:web', 'checkTrail'])->name('dashboard');
 
 
 Route::middleware('auth')->group(function () {

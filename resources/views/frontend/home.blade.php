@@ -28,12 +28,12 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="hero-content">
-                        <span class="sub-title wow fadeInUp"><i class="fas fa-arrow-right"></i>Welcome to
+                        <span class="sub-title wow fadeInUp"><i class="fas fa-arrow-right"></i>
+                            Welcome to
                         </span>
                         <h1 class="wow fadeInUp" data-wow-delay=".5s">Intro Text Here</h1>
                         <p class="wow fadeInDown" data-wow-delay="1s">Sit amet consectetur adipiscing elit sed do
-                            eiusmod tem
-                            porincididunt ut labore dolore magna aliqua.</p>
+                            eiusmod tem porincididunt ut labore dolore magna aliqua.</p>
                         <a href="about.html" class="main-btn arrow-btn wow fadeInUp" data-wow-delay=".7s">Discover
                             More</a>
                     </div>

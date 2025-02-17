@@ -12,35 +12,32 @@
                 <div class="nav-menu nav-ml-auto">
                     <!-- Navbar Close -->
                     <div class="navbar-close"><i class="far fa-times"></i></div>
-                    <!-- Nav Search -->
-                    <div class="nav-search">
-                        <form>
-                            <div class="form_group">
-                                <input type="email" class="form_control" placeholder="Search Here" name="email"
-                                       required>
-                                <button class="search-btn"><i class="fas fa-search"></i></button>
-                            </div>
-                        </form>
-                    </div>
+
                     <!-- Main Menu -->
                     <nav class="main-menu">
                         <ul>
-                            <li class="menu-item"><a href="#home" class="page-scroll active nav-link">Home</a>
-                            </li>
-                            <li class="menu-item"><a href="#services" class="page-scroll nav-link">Services</a>
-                            </li>
-                            <li class="menu-item"><a href="#about" class="page-scroll nav-link">About</a></li>
-                            <li class="menu-item"><a href="#testimonial" class="page-scroll nav-link">Testimonial</a>
-                            </li>
-                            <li class="menu-item"><a href="#pricing" class="page-scroll nav-link">pricing</a>
-                            </li>
-                            <li class="menu-item"><a href="#contact" class="page-scroll nav-link">Contact</a>
+                            <li class="menu-item">
+                                <a href="#home" class="page-scroll active nav-link">Home</a>
                             </li>
                             <li class="menu-item">
-                                <a href="{{ route('login') }}" class="page-scroll nav-link">Login</a>
+                                <a href="#services" class="page-scroll nav-link">Services</a>
                             </li>
                             <li class="menu-item">
-                                <a href="{{ route('register') }}" class="page-scroll nav-link">Register</a>
+                                <a href="#about" class="page-scroll nav-link">About</a></li>
+                            <li class="menu-item">
+                                <a href="#testimonial" class="page-scroll nav-link">Testimonial</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#pricing" class="page-scroll nav-link">pricing</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#contact" class="page-scroll nav-link">Contact</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="{{ route('login') }}" class="nav-link">Login</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="{{ route('register') }}" class="nav-link">Register</a>
                             </li>
                         </ul>
                     </nav>
