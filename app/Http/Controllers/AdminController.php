@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Admin;
 use App\Models\User;
 use Auth;
 use Illuminate\Http\Request;
@@ -10,10 +9,10 @@ use Illuminate\View\View;
 
 class AdminController extends Controller
 {
-
     public function index()
     {
         $users = User::count();
+
         return view('Dashboard.SuperAdmin.Home', compact('users'));
     }
 
@@ -36,12 +35,10 @@ class AdminController extends Controller
         return back()->withErrors(['email' => 'Invalid credentials']);
     }
 
-
     public function logout(Request $request)
     {
         Auth::guard('admin')->logout();
 
         return redirect('/admin/login');
     }
-
 }
